@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="cal.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="row mt-4">
+        <div class="col-4"></div>
+        <div class="col-2">
+            <div>
+                <input type="text" class="form-control" id="result">
+            </div>
+            <button class="mt-2" id="btn1" onclick="displayNum(7)">7</button>
+            <button class="mt-2" id="btn1" onclick="">8</button>
+            <button class="mt-2" id="btn1" onclick="">9</button>
+            <button class="mt-2" id="btn" onclick="">/</button>
+        </div>
+        <div class="col-6"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-2">
+            <button class="mt-2" id="btn1" onclick="">4</button>
+            <button class="mt-2" id="btn1" onclick="">5</button>
+            <button class="mt-2" id="btn1" onclick="">6</button>
+            <button class="mt-2 opt" id="btn" onclick="">&#215</button>
+        </div>
+        <div class="col-6"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-2">
+            <button class="mt-2" id="btn1" onclick="">1</button>
+            <button class="mt-2" id="btn1" onclick="">2</button>
+            <button class="mt-2" id="btn1" onclick="">3</button>
+            <button class="mt-2 opt" id="btn" onclick="">&#8722</button>
+        </div>
+        <div class="col-6"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-2">
+            <button class="mt-2" id="btn1" onclick="">0</button>
+            <button class="mt-2" id="btn1" onclick="clearBox()">AC</button>
+            <button class="mt-2 opt" id="btn" onclick="">&#43</button>
+            <button class="mt-2 opt" id="btn" onclick="">&#61</button>
+        </div>
+        <div class="col-6"></div>
+    </div>
+
+</body>
+<script src="./cal.js"></script>
+
+</html>
